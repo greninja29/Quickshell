@@ -1,0 +1,44 @@
+/* hardcoded, */
+/* remove the background when the popup is displayed */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px;
+    /*hardcoded*/
+}
+
+.body {
+    background-color: lightgray;
+    flex: 1;
+    padding: 20px;
+
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.popup {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;/*hardcoded*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: calc(43px);/*hardcoded*/
+    left: 10px;/*hardcoded*/
+    /* left: 50%;
+    transform: translateX(-230%); */
+}
